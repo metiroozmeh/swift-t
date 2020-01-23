@@ -11,3 +11,10 @@ Currently, I am trying to export a c library as Tcl package. However, I managed 
 
 
 Additional note: The test case is only an extension of your second example (g function with sum operation) with almost same structure. Please let me know what you think.
+
+Please generate the package by: 
+
+
+    swig -module multiply multiply.h
+    bash run_multiply_swig.sh
+    tclsh test_tcl.tcl
