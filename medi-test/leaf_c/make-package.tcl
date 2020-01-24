@@ -1,3 +1,3 @@
-puts [ ::pkg::create -name my_pkg \
+puts [ ::pkg::create -name multiply \
                      -version 0.0 \
-                     -load libg.so ]
+                     -load libmultiply.so ]
