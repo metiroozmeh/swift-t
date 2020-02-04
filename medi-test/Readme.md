@@ -1,4 +1,16 @@
-Currently, I am trying to export a c library as Tcl package. However, I managed to complete described steps in guide, section 3.2, I get following error while trying to test my tcl package. 
+Generated TCL package from c library works fine, However i can not not run it with turbine and generate the following error: 
+
+
+    can't find package multiply 0.0
+        while executing
+    "package require multiply 0.0"
+        (file "test_multiply.tic" line 78)
+
+
+----------------------------------------------------------------------------------------------
+
+
+##SOLVED### Currently, I am trying to export a c library as Tcl package. However, I managed to complete described steps in guide, section 3.2, I get following error while trying to test my tcl package. 
 
 
     couldn't find procedure G_Init
